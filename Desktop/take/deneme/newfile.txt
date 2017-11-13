@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 tk yeni wow -aaaaaaa KUYUCUK
+=======
+tk yeni wow -aaaaaaa TOLGA
+>>>>>>> deneysel
