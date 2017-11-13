@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_overview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="de.httptandooripalace.restaurantorderprinter.PrintActivity">
+
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="PrintTest_button" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/print_table_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/total"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/listingLayout"
+            android:layout_width="match_parent"
+            android:layout_height="268dp"
+            android:layout_weight="1.00" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="143dp">
+
+            <Button
+                android:id="@+id/add_products"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/split_bills"
+                android:layout_alignParentStart="true"
+                android:text="@string/add_product_to_bill" />
+
+            <Button
+                android:id="@+id/split_bills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/print_kitchen_bar"
+                android:layout_alignParentStart="true"
+                android:text="@string/split_bill" />
+
+            <Button
+                android:id="@+id/print_kitchen_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="false"
+                android:layout_centerVertical="true"
+                android:text="@string/print_kitchen_bar_bill" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

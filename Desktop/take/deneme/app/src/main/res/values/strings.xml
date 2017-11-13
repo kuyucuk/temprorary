@@ -1,0 +1,117 @@
+<resources>
+
+    <string name="app_name">Order &amp; Print</string>
+    <string name="table_number">Table number</string>
+    <string name="printing_overview">Printing overview</string>
+    <string name="settings">Settings</string>
+    <string name="overview">Open bills</string>
+    <string name="history">Closed bills</string>
+    <string name="bill_spliting">Bill Spliting</string>
+    <string name="print_history">Print History</string>
+
+    <!-- Settings menu -->
+    <string name="application_settings">Application setings</string>
+    <string name="bill_settings">Bill setings</string>
+    <string name="load_items">Load items</string>
+    <string name="load_menu">Load Menu</string>
+    <string name="got_items_from_db">Success! Loaded items from database</string>
+    <string name="added_products">Added product</string>
+    <string name="to_the_list">to the list :</string>
+    <string name="restaurant_name">Restaurant name</string>
+    <string name="address">Address</string>
+    <string name="telephone_nr">Tel. number</string>
+    <string name="tax_nr">Tax number</string>
+    <string name="extra_line">Extra line</string>
+    <string name="waiter_name">Waiter name</string>
+    <string name="offline_mode_activated">Offline mode activated</string>
+    <string name="online_mode_activated">Online mode activated</string>
+
+
+
+    <!-- Print overview -->
+    <string name="prince_incl">Price incl. tax</string>
+    <string name="ref">Ref.</string>
+    <string name="add_product_to_bill">Add products to bill</string>
+    <string name="split_bill">Split the bill</string>
+    <string name="print_kitchen_bar_bill">Print Kitchen and/or Bar Bill</string>
+
+    <!-- Split overview -->
+    <string name="done">Done!</string>
+    <string name="select">Select</string>
+
+    <!-- Print bill -->
+    <string name="bill">Bill</string>
+    <string name="table_nr">Table nr.:</string>
+    <string name="price_excl">Price excl.</string>
+    <string name="tax">Tax</string>
+    <string name="total">Total</string>
+    <string name="served_by">You have been served by</string>
+    <string name="tyvm">Thank you very much!</string>
+    <string name="visit_again">We\'d like to welcome you again soon.</string>
+    <string name="waiter">Waiter</string>
+    <string name="price_tag">price_tag</string>
+    <string name="delete_overview">Delete overview</string>
+    <string name="overview_will_deleted">Overview will be cleared.</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="price_incl_euro">Price incl: €</string>
+
+    <!-- Menu items -->
+    <string name="drink">Drinks</string>
+    <string name="kitchen">Kitchen</string>
+    <string name="kitchen2">Kitchen</string>
+    <string name="tax2">Tax</string>
+    <string name="bill2">Bill</string>
+
+    <!-- Save settings dialog menu -->
+    <string name="save_settings">Save settings?</string>
+    <string name="want_to_save">Do you want to save these settings?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Error -->
+    <string name="could_not_get_db_info">Could not get information from database.\nIs your wifi or data activated?</string>
+    <string name="changing_ip">WARNING\nYou are changing the IP address of the WiFi printer.\nThis can break app functionality.</string>
+    <string name="tryAgain">Try again</string>
+
+    <!-- Overview activity -->
+    <string name="id_tag">id_tag</string>
+    <string name="table_tag">table_tag</string>
+    <string name="waiter_tag">waiter_tag</string>
+
+    <!-- Main activity -->
+    <string name="added">Added:</string>
+    <string name="search_products">Search Products</string>
+
+
+    <!-- History Activity -->
+    <string name="date">Date</string>
+    <string name="table">Table</string>
+    <string name="price">Price</string>
+    <string name="id">ID</string>
+
+    <!-- Print History Activity -->
+    <string name="print_daily_records">Print Daily Records</string>
+    <string name="daily_journal">Daily Journal</string>
+    <string name="book">Booking</string>
+    <string name="normal">Normal</string>
+    <string name="total_sales">Total Sales</string>
+    <string name="payments">Payments</string>
+    <string name="bar">Bar</string>
+    <string name="kasse">Treasury stock</string>
+    <string name="cash">Cash payments</string>
+    <string name="info">Info</string>
+    <string name="saves">Saved</string>
+    <string name="food">Food</string>
+    <string name="drinks">Drinks</string>
+    <string name="no_bill">There is no bill on this day</string>
+    <string name="filter">Filtering Option</string>
+    <string name="filter_by">Filter the bills by:</string>
+    <string name="daily">Daily :</string>
+    <string name="between">Between :</string>
+    <string name="in_interval">In Interval</string>
+    <string name="apply_filters">Apply Filters</string>
+    <string name="title_please_wait">Please Wait</string>
+    <string name="title_processing">Processing...</string>
+
+</resources>

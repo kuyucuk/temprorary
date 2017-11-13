@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bestellen &amp; Drücken</string>
+    <string name="table_number">Tischnummer</string>
+    <string name="printing_overview">Druckübersicht</string>
+    <string name="settings">Einstellungen</string>
+    <string name="overview">Offene Rechnungen</string>
+    <string name="history">Geschlossene Rechnungen</string>
+    <string name="bill_spliting">Rechnung Spaltung</string>
+    <string name="print_history">Geschlossene Rechnungen Drücken</string>
+
+    <!-- Settings menu -->
+    <string name="application_settings">Anwendungseinstellungen</string>
+    <string name="bill_settings">Rechnungseinstellungen</string>
+    <string name="load_items">Artikel laden</string>
+    <string name="load_menu">Menü laden</string>
+    <string name="got_items_from_db">Geschafft! Geladene Elemente aus der Datenbank</string>
+    <string name="added_products">Produkt hinzugefügt</string>
+    <string name="to_the_list">zur liste :</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="address">Adresse</string>
+    <string name="telephone_nr">Telefonnummer</string>
+    <string name="tax_nr">Steuernummer</string>
+    <string name="extra_line">Extra Zeile</string>
+    <string name="waiter_name">Kellner Name</string>
+    <string name="offline_mode_activated">Offline-Modus aktiviert</string>
+    <string name="online_mode_activated">Online-Modus aktiviert</string>
+
+    <!-- Print overview -->
+    <string name="prince_incl">Preis inkl. Steuern</string>
+    <string name="ref">Ref.</string>
+    <string name="add_product_to_bill">Produkte hinzufügen</string>
+    <string name="split_bill">Teilen Sie die Rechnung</string>
+    <string name="print_kitchen_bar_bill">Drücken Küchen- und/oder Bar- Rechnung</string>
+
+
+    <!-- Split overview -->
+    <string name="done">Erledigt!</string>
+    <string name="select">Wählen</string>
+
+    <!-- Print bill -->
+    <string name="bill">Rechnung</string>
+    <string name="table_nr">TISCH NR.:</string>
+    <string name="price_excl">Nettoumsatz</string>
+    <string name="tax">MwSt 19%</string>
+    <string name="total">Gesamt</string>
+    <string name="served_by">Es bediente Sie</string>
+    <string name="tyvm">Vielen Dank!</string>
+    <string name="visit_again">Beehren Sie uns bald wieder.</string>
+    <string name="waiter">BED</string>
+    <string name="price_tag">price_tag</string>
+    <string name="delete_overview">Übersicht löschen</string>
+    <string name="overview_will_deleted">Die Übersicht wird gelöscht.</string>
+    <string name="are_you_sure">Sind Sie sicher?</string>
+    <string name="price_incl_euro">Preis inkl. Steuern : €</string>
+
+    <!-- Menu items -->
+    <string name="drink">Getränke</string>
+    <string name="kitchen">K·154·che</string>
+    <string name="kitchen2">Küche</string>
+    <string name="tax2">Steuer</string>
+    <string name="bill2">Rechnung</string>
+
+    <!-- Save settings dialog menu -->
+    <string name="save_settings">Einstellungen speichern?</string>
+    <string name="want_to_save">Möchten Sie diese Einstellungen speichern?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="cancel">Beenden</string>
+
+    <!-- Error -->
+    <string name="could_not_get_db_info">Könnte keine Informationen aus der Datenbank erhalten.\nIst Ihr Wifi oder Daten aktiviert?</string>
+    <string name="changing_ip">WARNUNG\nSie ändern die IP-Adresse des WiFi-Druckers.\nDas kann App-Funktionalität brechen.</string>
+    <string name="tryAgain">Versuch es noch einmal</string>
+
+    <!-- Overview activity -->
+    <string name="id_tag">id_tag</string>
+    <string name="table_tag">table_tag</string>
+    <string name="waiter_tag">waiter_tag</string>
+
+    <!-- Main activity -->
+    <string name="added">Hinzugefügt:</string>
+    <string name="search_products">Produktsuche</string>
+
+    <!-- History Activity -->
+    <string name="date">Datum</string>
+    <string name="table">Tisch</string>
+    <string name="price">Preis</string>
+    <string name="id">ID</string>
+
+    <!-- Print History Activity -->
+    <string name="print_daily_records">Drucken Tägliche Aufzeichnungen</string>
+    <string name="daily_journal">Tagesjournal</string>
+    <string name="book">Buchnung</string>
+    <string name="normal">Normal</string>
+    <string name="total_sales">Gesamtumsatz</string>
+    <string name="payments">Zahlungen</string>
+    <string name="bar">Bar</string>
+    <string name="kasse">Eigenkapital</string>
+    <string name="cash">Barzahlungen</string>
+    <string name="info">Info</string>
+    <string name="saves">Gespeichert</string>
+    <string name="food">Essen</string>
+    <string name="drinks">Getränke</string>
+    <string name="no_bill">Es gibt keine Rechnung an diesem Tag</string>
+
+</resources>
