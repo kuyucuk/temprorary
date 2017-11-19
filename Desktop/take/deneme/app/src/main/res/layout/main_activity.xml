@@ -11,7 +11,7 @@
     android:weightSum="10"
     tools:context="de.httptandooripalace.restaurantorderprinter.MainActivity">
 
-    <!--<EditText-->
+    <!--<EditText HELLOOOOOOOOOOOOOOOOOOOO-->
     <!--android:id="@+id/search"-->
     <!--android:layout_width="wrap_content"-->
     <!--android:layout_height="wrap_content"-->
